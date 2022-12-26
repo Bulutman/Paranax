@@ -1,0 +1,119 @@
+ 
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lakki Reddy', cursive;
+}
+
+.redkit{
+    
+    font-size: 100px;
+    color: rgb(7, 7, 7);
+    border: 10px solid red;
+    letter-spacing: 10px;
+    padding: 16px;
+    width: fit-content;
+    outline: 20px solid rgb(245, 194, 26);
+    border-radius: 20px 0 20px 0;
+    outline-offset: 10px;
+    background-image: linear-gradient(90deg, #dc850c 0%, #e88200 24%, #de0d0d 49%, #de9323 75%, #fb0e0e 100%);
+  
+}
+
+a{
+    /* border: 1px solid red; */
+    text-decoration: none;
+    padding: 5px;
+    /* max-width: 100%; */
+    border-radius: 15%;
+    color: rgb(15, 14, 13);
+    font-size: 20px;
+    text-align:center;
+    margin-bottom: 40%;
+    margin-left: 90%;
+    background-color: darkgoldenrod;
+    /* display: inline-block;  */
+    position: relative;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    outline-style: groove;
+    outline-offset: 8px;
+    outline-width: 8px; 
+      
+    
+    
+} 
+
+
+.bcg1,  
+.bcg2,
+.bcg3,
+.bcg4,
+.bcg5  {
+   align-items: center;
+  justify-content: center;
+  background-position: center; 
+  background-attachment: fixed;
+  opacity: 0.9;
+  background-size: cover;
+  display: flex;
+     
+}
+
+
+.bcg1,  
+.bcg2,
+.bcg3,
+.bcg4,
+.bcg5 :hover {
+    cursor: pointer;
+    
+}
+
+.bcg1 {
+    background-image: url(./images/img2/red_kit_daisy_town.jpg);
+    height: 100vh;
+}
+
+.bcg2 {
+    background-image: url(./images/img2/9f87d6b135efc288756adf0cd80d499b.webp);
+    height: 100vh;
+}
+
+.bcg3 {
+    background-image:url(./images/img2/red-kit.jpg) ;
+    height: 100vh;
+
+}
+
+.bcg4 { background-image:url(./images/img2/353030_cover.webp) ;
+height:100vh;
+
+}
+
+.bcg5 { background-image: url(./images/img2/desktop-wallpaper-red-kit-lucky-luke-cizgi-film-cocukluk-animasyon.jpg) ;
+    height:100vh;
+
+}
+
+.div-div1,
+
+.div-div2,
+
+.div-div3,
+
+.div-div4,
+
+.div-div5
+{
+    height: 20vh;
+    background-color: burlywood;
+    text-align: center;
+    overflow: auto;
+}
+
+
